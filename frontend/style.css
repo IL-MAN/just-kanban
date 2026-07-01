@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(67, 67, 243);
+}
+
+.header_place{
+    width: 100%;
+    max-height: 20%;
+    background-color:  rgb(67, 67, 255);
+    border-bottom: 2px solid gray;
+}    
+    
+.top_line_block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_line_left{
+    padding-left: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    align-items: center;
+}
+
+.top_left_logo{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_line_right{
+    padding-right: 2%;
+    display: flex;
+    justify-content: center;
+    gap: 12%;
+    align-items: center;
+}
+
+.top_line_logo{
+    width: 15%;
+    height: 15%;
+}
+
+.left_menu{
+    width: 20%;
+}
+
+.tables{
+    width: 80%;
+}
+.card{
+    width: 20%;
+    border: 10px solid seashell;
+    border-radius: 10px;
+    background-color: seashell;
+    display: flex;
+    flex-direction: column;
+}
+.card_bottom_zone{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.for_who{
+    width: 50px;
+    height: 50px;
+}
+
+.from_who{
+    width: 50px;
+    height: 50px;
+}
+
+.button{
+    border: 10px solid #0B63F6;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: #0B63F6;
+    box-shadow: 0 5px 0 #003CC5;
+}
+
+.button:hover{
+    background: #003CC5;
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.hidden {
+    display: none !important;
+}
